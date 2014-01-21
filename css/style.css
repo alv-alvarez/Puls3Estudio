@@ -8,14 +8,13 @@
   font-weight: normal;
   font-style: normal;
 }
-
 a
 {
   color: #dd4f24;
 }
 body
 {
-  background: #efefef;
+  background: #efefef;  
   color: #4c4c4c;
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
@@ -135,7 +134,7 @@ nav #publicar_nav:after
 nav #publicar_nav a
 {
   display: inline-block;
-  padding: 0.5em 1em;
+  padding: 0.5em 2em 0.5em 1em;
 }
 #bienvenida
 {
@@ -185,14 +184,17 @@ nav #publicar_nav a
 }
 #contenido .item .datos_item .guardar_item
 {
-  margin: 0 1em;
+  margin: 0 3em 0 1em;
   text-decoration: none;
+  position: relative;
 }
 #contenido .item .datos_item .guardar_item:after
 {
   color: #fd5;
   content: "\e601";
   font-family: "icomoon";
+  font-size: 1.7em;
+  position: absolute;
 }
 #contenido .item .datos_item .tag_item
 {
